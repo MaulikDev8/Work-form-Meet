@@ -105,3 +105,33 @@ div.asl_r .results .item .asl_content h3 a:hover {
   letter-spacing: 0.5px !important;
   border: 2px solid #d71920 !important;
 }
+
+/* ===================== Guide Page ===================== */
+.guid-hero-container {
+  background-color: #f5f5f5;
+}
+
+.guid-hero-container .container {
+  height: 534px;
+  /* background: #ffffff; */
+  background: red;
+  margin: 1rem auto;
+  max-width: 798px;
+  padding: 20px 24px 0 24px;
+}
+
+.guid-hero-container .first-row {
+  height: 164px;
+  background: #edf4f7;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.guid-hero-container .col-top {
+  height: 24px;
+}
+
+.guid-hero-container .col-top h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
