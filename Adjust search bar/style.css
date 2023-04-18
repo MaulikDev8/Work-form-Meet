@@ -1,4 +1,9 @@
 /* Search Input */
+.search-engine .input-group {
+  background-color: #fff !important;
+  width: calc(100% - 16.5px);
+  margin: 0 auto;
+}
 
 #ajaxsearchlite1 .probox,
 .asl_w .probox {
@@ -20,13 +25,21 @@ div.asl_w .probox .prosettings {
   height: 40px !important;
 }
 
+/* Search Icon */
+.asl_w .probox .promagnifier {
+  width: 60px !important;
+  height: 60px !important;
+}
+
 div.asl_w .probox .promagnifier .innericon svg {
   fill: #fff !important;
+  width: 20px !important;
 }
 
 /* Search result */
 #ajaxsearchliteres1 {
   height: 350px !important;
+  margin-top: 8px !important;
 }
 
 .asl_r .results {
@@ -34,24 +47,61 @@ div.asl_w .probox .promagnifier .innericon svg {
 }
 
 .asl_r .results .item .asl_content {
-  color: #1f1f1f;
-  font-weight: 400;
-  padding: 6px 8px;
-  margin-bottom: 2px;
+  color: #1f1f1f !important;
+  font-weight: 400 !important;
+  padding: 6px 8px !important;
+  margin-bottom: 2px !important;
 }
 
 .asl_r .results .item .asl_content:hover {
-  background-color: #edf4f7;
+  background-color: #edf4f7 !important;
 }
 
 .asl_r .results .item .asl_content h3,
 div.asl_r .results .item .asl_content h3 a {
-  color: #000;
-  font-size: 20px;
+  color: #1f1f1f !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
 }
 
 .asl_r .results .item .asl_content h3:hover,
 div.asl_r .results .item .asl_content h3 a:hover {
-  color: #000;
-  font-size: 20px;
+  color: #1f1f1f !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+/* Banner */
+.banner-section {
+  height: 470px !important;
+}
+
+/* Guide page */
+/* add specific class for that page */
+.guide-height {
+  height: 500px !important;
+  background-color: #fff !important;
+}
+
+/* About us */
+/* Add specific class (if necessary) */
+.about-us-container p {
+  margin-bottom: 0 !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+}
+
+/* Button */
+.btn {
+  color: #ffffff !important;
+  width: 100% !important;
+  max-width: 206px !important;
+  height: 60px !important;
+  background: #d71920 !important;
+  border-radius: 4px !important;
+  font-weight: 800 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  letter-spacing: 0.5px !important;
+  border: 2px solid #d71920 !important;
 }
